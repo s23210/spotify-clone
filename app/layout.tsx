@@ -17,10 +17,10 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<body className={font.className}>
-        <Sidebar>
-          {children}
-        </Sidebar>
-        </body>
+				<Sidebar>
+					{children}
+				</Sidebar>
+			</body>
 		</html>
 	);
 }

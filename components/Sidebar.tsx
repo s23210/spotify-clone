@@ -55,13 +55,13 @@ const Sidebar: React.FC<SidebarProps> = ({ children }) => {
                         py-4
                         "
 					>
-                        {routes.map((item) => (
-                            <SidebarItem
-                                key={item.label}
-                                {...item}
-                            />
-                        ))}
-                    </div>
+						{routes.map((item) => (
+							<SidebarItem
+								key={item.label}
+								{...item}
+							/>
+						))}
+					</div>
 				</Box>
 				<Box className="overflow-y-auto h-full">Song Library</Box>
 			</div>
