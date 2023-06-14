@@ -73,7 +73,7 @@ const Header: React.FC<HeaderProps> = ({
                         <RxCaretRight className="text-white" size={35} />
                     </button>
                 </div>
-                <div className="flex md:hidden gpa-x-2 items-center">
+                <div className="flex md:hidden gap-x-2 items-center">
                     <button
                         className="
                             rounded-full
